@@ -117,16 +117,16 @@ $saw->getHasil();
 <br>
 <br>
 <div style="text-align: right;">
-    Jakarta, <?php echo $saw->hari_ini(); ?>, <?php echo date("d/m/Y"); ?>
+    Jakarta, <?php echo $saw->hari_ini(); ?>, <?php echo $saw->tanggal_indonesia(date("Y-m-d")); ?>
     <br>
     <br>
-    <span>Owner &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+    <span>Owner &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
     <br>
     <br>
     <br>
     <br>
     <br>
-    <span>Wanda Hasanah &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+    <span>Wanda Hasanah &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
 </div>
 <?php
 }
